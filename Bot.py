@@ -5,8 +5,6 @@ import asyncio
 import time
 import os 
 
-client.run (os.getnenv('TOKEN'))
-
 Client = discord.Client()
 client = commands.Bot(command_prefix = "=")
 
@@ -29,4 +27,4 @@ async def on_message(message):
                 await client.send_message(message.channel, f"{message.author.mention} Your Patners Application has ben sent to the queue. It will take 12-72 hours for respond.")
 
 
-client.run("TOKEN")
+client.run(os.getnenv('TOKEN'))
