@@ -26,5 +26,6 @@ async def on_message(message):
                 UserID = message.author.id
                 await client.send_message(message.channel, f"{message.author.mention} Your Patners Application has ben sent to the queue. It will take 12-72 hours for respond.")
 
+                
+client.login(process.env.BOT_TOKEN);
 
-client.run(os.getnenv('TOKEN'))
