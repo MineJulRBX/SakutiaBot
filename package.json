@@ -1,9 +1,9 @@
 {
-  "name": "Discord-Bot",
+  "name": "Sakutia Bot",
   "version": "0.0.1",
-  "description": "A bot for Discord",
+  "description": "A bot programmed only to work for MineJul's servers",
   "readme": "README.md",
-  "author": "Xeta <zoro.fmt@gmail.com>",
+  "author": "MineJul",
   "repository": {
     "type": "git",
     "url": "https://github.com/MineJulRBX/SakutiaBot"
