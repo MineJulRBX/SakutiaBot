@@ -2,9 +2,14 @@
   "name": "Sakutia Bot",
   "version": "0.0.3",
   "description": "A bot programmed only to work for MineJul's servers",
+  "main": "Bot.py",
+  "scripts": {
+    "start": "node Bot.py"
+  },
   "readme": "README.md",
   "author": "MineJul",
   "repository": {
     "type": "git",
     "url": "https://github.com/MineJulRBX/SakutiaBot"
+  }
  }
